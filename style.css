@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container{
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+header{
+  text-align: center;
+}
+
+img{
+  width: 20%;
+  height: auto;
+  margin-top: 70px;
+}
+
+header > h1{
+  color: rgb(50, 255, 0);
+}
+
+.navigation{
+  background-color: rgb(50, 255, 0);
+  width: 80%;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 2%;
+  margin: 20px;
+  margin-left: 80px;
+}
+
+div > h2{
+  display: inline-block;
+}
+
+.monopattini{
+  color: white;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.barradicarica1{
+  background-color: #FFA500;
+  height: 40px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.barradicarica2{
+  background-color: #228B22;
+  height: 40px;
+  width: 55%;
+  border-radius: 5px;
+}
+
+.barradicarica3{
+  background-color: red;
+  height: 40px;
+  width: 15%;
+  border-radius: 5px;
+}
